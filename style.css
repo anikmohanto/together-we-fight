@@ -4,7 +4,7 @@ body {
 }
 
 .banner-container {
-    background-image: url('/images/donation1.jpg');
+    background-image: url('/images/donation6.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -13,25 +13,27 @@ body {
     text-align: center;
     padding: 160px 140px;
     background-color: black;
-    opacity: 0.7;
+    opacity: 0.6;
 }
 
 .banner-title {
     color: white;
+    font-size: 40px;
 }
 
 .paragraph {
     color: white;
-    font-size: 15px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .donate-btn {
-    background-color: orangered;
+    background-color: #FF5959;
     color: whitesmoke;
-    padding: 10px 22px;
+    padding: 10px 25px;
     cursor: pointer;
-    border-color: orangered;
-    margin-top: 20px;
+    border-color: #FF5959;
+    margin-top: 30px;
 }
 
 .donate-section {
@@ -39,6 +41,7 @@ body {
     text-align: center;
     padding: 0 100px;
     margin-bottom: 50px;
+    font-size: x-large;
 }
 
 .donate-amount {
@@ -56,14 +59,14 @@ body {
 }
 
 .amount.selected {
-    border-color: rgb(160, 13, 74);
+    border-color: #FF5959;
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
 }
 
 .amount.selected h1 {
-    color: rgb(160, 13, 74);
-    border-color: rgb(160, 13, 74);
+    color: #FF5959;
+    border-color: #FF5959;
 }
 
 .custom-amount {
@@ -107,4 +110,63 @@ body {
     background: rgb(236, 236, 211);
     border-radius: 5px;
     padding: 10px 20px;
+}
+
+.Blog-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    margin-top: 100px;
+}
+
+.blog-content {
+    width: 50%;
+}
+
+.text-content {
+    font-size: 18px;
+}
+
+.newsletter-section {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.newsletter-section p {
+    font-size: 16px;
+    padding: 0 280px;
+}
+
+.input_div {
+    background: rgb(236, 236, 211);
+    margin: 20px 300px;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+
+.input_email {
+    padding: 10px 8px;
+    width: 400px;
+    border: 0px solid #fff;
+    background-color: #ddd;
+}
+
+.footer {
+    background-color: #0B0D17;
+    text-align: center;
+}
+
+.footer h2 {
+    color: #FF5959;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 28px;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
 }
